@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Acaris</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="main.html">Acaris</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="main.html#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="main.html#resume">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="blog.html">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Blog Header -->
+    <header class="blog-header py-5">
+        <div class="container">
+            <h1 class="text-center mb-4">Acaris Blog</h1>
+            <p class="text-center lead">Innovation, Technology, and Future Insights</p>
+        </div>
+    </header>
+
+    <!-- Blog Posts -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Blog Post Card 1 -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card blog-card h-100">
+                        <img src="blog1.jpg" class="card-img-top" alt="Blog Post 1">
+                        <div class="card-body">
+                            <h5 class="card-title">The Future of AI</h5>
+                            <p class="card-text">Exploring the latest developments in artificial intelligence and their impact on our future.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small class="text-muted">March 15, 2024</small>
+                                <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#blogModal1">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Post Card 2 -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card blog-card h-100">
+                        <img src="blog2.jpg" class="card-img-top" alt="Blog Post 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Sustainable Technology</h5>
+                            <p class="card-text">How we're building a greener future through innovative technological solutions.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small class="text-muted">March 10, 2024</small>
+                                <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#blogModal2">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Post Card 3 -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card blog-card h-100">
+                        <img src="blog3.jpg" class="card-img-top" alt="Blog Post 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Digital Transformation</h5>
+                            <p class="card-text">The journey of businesses adapting to the digital age and emerging technologies.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small class="text-muted">March 5, 2024</small>
+                                <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#blogModal3">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Modals -->
+    <!-- Modal 1 -->
+    <div class="modal fade" id="blogModal1" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">The Future of AI</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="blog1.jpg" class="img-fluid mb-4" alt="AI Future">
+                    <p>Artificial Intelligence continues to evolve at an unprecedented pace, reshaping industries and our daily lives. In this comprehensive article, we explore the latest developments in AI technology and their potential impact on society.</p>
+                    <h4>Key Developments</h4>
+                    <ul>
+                        <li>Advanced Language Models</li>
+                        <li>Computer Vision Breakthroughs</li>
+                        <li>AI in Healthcare</li>
+                        <li>Ethical Considerations</li>
+                    </ul>
+                    <p>As we look to the future, the possibilities seem endless. From autonomous vehicles to personalized medicine, AI is at the forefront of innovation.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="blogModal2" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sustainable Technology</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="blog2.jpg" class="img-fluid mb-4" alt="Sustainable Tech">
+                    <p>The intersection of technology and sustainability is creating new opportunities for environmental protection and resource conservation. This article explores how innovative solutions are helping build a more sustainable future.</p>
+                    <h4>Innovative Solutions</h4>
+                    <ul>
+                        <li>Renewable Energy Technologies</li>
+                        <li>Smart Grid Systems</li>
+                        <li>Eco-friendly Materials</li>
+                        <li>Circular Economy</li>
+                    </ul>
+                    <p>Through technological innovation, we're finding new ways to protect our planet while advancing human progress.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal fade" id="blogModal3" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Digital Transformation</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="blog3.jpg" class="img-fluid mb-4" alt="Digital Transformation">
+                    <p>The digital transformation journey is reshaping how businesses operate and compete in the modern marketplace. This article examines the key trends and challenges in digital transformation.</p>
+                    <h4>Key Trends</h4>
+                    <ul>
+                        <li>Cloud Computing</li>
+                        <li>Data Analytics</li>
+                        <li>Cybersecurity</li>
+                        <li>Remote Work Solutions</li>
+                    </ul>
+                    <p>As businesses adapt to the digital age, they're discovering new ways to create value and serve their customers.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Acaris. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 
